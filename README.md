@@ -2,8 +2,8 @@
 In Aug 2021, I created a weather application to help users determine the weather at any location around the world. I wanted to create a portable application that users can use without having access to the internet. So the application fetches the weather data from a website called openweathermap.org where it records the weather data and the app displays the results from the website. The application works by users searching from the search bar I implemeted and the results display the date, temperature and weather location with the country it is from. A cool implementation is that the background changes color based on the temperature. For example if the temperature is above 16°C, the background will change to a warm looking image. Otherwise, the background will change to a cold looking image if the temperature is below 16°C. Attached below are the technologies I used and images of the application running with both hot and cold tempatures.
 
 # Specifications
-Languages: HTML/CSS, Javascript
-Frameworks/Libraries: React, Nodejs, JQuery
+Languages: HTML/CSS, Javascript<br />
+Frameworks/Libraries: React, Nodejs, JQuery<br/>
 Tools: Git, Visual Studio Code
 
 # The application running if the temperature is below 16°C
