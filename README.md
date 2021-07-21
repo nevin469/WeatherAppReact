@@ -6,5 +6,10 @@ Languages: HTML/CSS, Javascript
 Frameworks/Libraries: React, Nodejs, JQuery
 Tools: Git, Visual Studio Code
 
-# The application running if the temperature is below 16°C
+# Application Running
+
+The application running if the temperature is below 16°C
 ![image](https://user-images.githubusercontent.com/85756525/126418825-7bfaf78c-841f-4cce-9daf-93f2d93b672a.png)
+
+
+The application running if the temperature is above 16°C
