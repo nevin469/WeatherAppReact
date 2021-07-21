@@ -11,3 +11,4 @@ Tools: Git, Visual Studio Code
 
 
 # The application running if the temperature is above 16°C
+![image](https://user-images.githubusercontent.com/85756525/126419018-10e15457-d391-4563-93f4-5037eb8cc598.png)
