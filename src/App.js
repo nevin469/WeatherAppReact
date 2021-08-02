@@ -1,7 +1,7 @@
 //Weather React Project by Nevin Bullywon
 
 import React, {useState} from "react";
-const api = {//Importing the API data from openweathermap.org
+const api = {//Creating a REST API to fetch data from openweathermap.org
   key: "c163e61259f873803c6523fda7f96046",
   base: "http://api.openweathermap.org/data/2.5/"
 }
@@ -12,7 +12,7 @@ function App() {
 
   const search = evt =>{
     if (evt.key === "Enter"){//if enter key is pressed
-      fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
+      fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`) //THE API fetches data from the website to display weather results
         .then(res => res.json())
         .then(result => {
           setWeather(result);
